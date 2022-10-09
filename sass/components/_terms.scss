@@ -1,0 +1,53 @@
+.terms {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.terms__descr {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+    }
+}
+
+.terms__link {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--attention-color);
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+    }
+}
+
+.terms__icons {
+    cursor: pointer;
+}
+
+.icon-checked {
+    opacity: 0;
+    transition: var(--anim-hover);
+
+    .checkbox:checked+.terms__icons & {
+        opacity: 1;
+    }
+}
+
+
+.icon-unchecked {
+    transition: var(--anim-hover);
+
+    .checkbox:checked+.terms__icons & {
+        opacity: 0;
+    }
+}
