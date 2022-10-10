@@ -60,7 +60,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-left: 96px;
+    margin-left: auto 96px;
 
     @media screen and (max-width: 767px) {
         display: none;
@@ -73,8 +73,10 @@
 
 
 .contacts__link {
-    display: flex;
-    align-items: center;
+    display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+ 
 
     font-weight: 500;
     font-size: 12px;
