@@ -1621,5 +1621,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.footer__contacs {
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
