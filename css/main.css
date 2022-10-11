@@ -410,12 +410,6 @@ body {
   fill: var(--background-color);
 }
 
-@media screen and (min-width: 1200px) {
-  .addresses {
-    margin-right: 70px;
-  }
-}
-
 .addresses__link {
   display: block;
   text-align: center;

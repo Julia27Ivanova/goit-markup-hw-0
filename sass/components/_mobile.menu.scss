@@ -1,11 +1,22 @@
 .menu-btn {
-    background: none;
-    border: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding: 0;
+        align-items: center;
+        justify-content: center;
+    
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin-left: auto;
+    
+        background-color: transparent;
+        border: none;
+    
+        cursor: pointer;
+    
+        @media screen and (max-width:768px) {
+            display: none;
+        }
+
 
 }
 
